@@ -1,2 +1,2 @@
 # SSTC1
- Solid State Tesla Coil built by me.
+### This is a showcase of the solid state tesla coil project I've been working on for a couple of months.
