@@ -7,10 +7,9 @@ ___
 
 * [Story](#story)
 * [Start of the project](#start)
+* [Construction](#construction)
 
-
-
-
+____
 
 # Story
 
@@ -24,5 +23,20 @@ Unlike the one in the museum, this one uses semiconductors instead of the spark 
 
 #### (Tesla coil photographed in the Belgrade during my visit)
 
+___
+
 # Start
+
+I started researching what would be most cost-effective way to build the tesla coil. My plan was to build an SSTC.
+#### SSTC uses semiconductors instead of the spark gap to switch the primary coil. The most significant difference is the absence of resonant capacitors (primary capacitors). Because of this, the SSTC cannot generate huge voltages at the output; however, it is much cheaper to build.
+
+My plan was to look at the builds other coilers made and try something similar. I went for the proven design of the Steve Ward with a few modifications regarding the logic board.
+
+After that, I started to do calculations using an awesome tool called [JavaTC](http://www.classictesla.com/java/javatc/javatc.html).
+
+My plan was to build a platform that houses all the electronics and above the platform would sit the secondary coil.
+The secondary coil resonant frequency I was aiming for was ***300kHz max*** (preferably below that).
+
+___
+# Construction
 
