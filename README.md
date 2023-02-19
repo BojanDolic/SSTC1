@@ -43,6 +43,9 @@ ___
 The first thing I did was visualized everything in my head, how I should place the components and ECBs.
 
 The second thing was to design the PCBs and have them manufactured. 
+
+## Logic board
+
 I started with the logic board PCB and that was the first ever PCB I designed and manufactured.
 
 ### Images of the logic board
@@ -53,8 +56,9 @@ I started with the logic board PCB and that was the first ever PCB I designed an
 
 <img src="pictures/logic_board_v1/logicboard_step5.jpg" width=600 height=700>
 
+## Driver board
 
-The second board I designed was the driver/switching board. It consists of the gate circuitry and two FETs in a half-bridge configuration. I decided on the half-bridge because it is cheaper because it uses only two transistors but it has lower performance.
+The second board I designed was the driver/switching board. It consists of the gate circuitry and two FETs in a half-bridge configuration. I decided on the half-bridge because it is cheaper (it uses only two transistors) but it has lower performance.
 
 ### Images of the driver board
 
