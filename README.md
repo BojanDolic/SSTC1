@@ -9,6 +9,7 @@ ___
 * [Start of the project](#start)
 * [Construction](#construction)
   * [Logic board](https://github.com/BojanDolic/SSTC1/blob/main/README.md#logic-board)
+  * [Driver board](https://github.com/BojanDolic/SSTC1/blob/main/README.md#driver-board)
 
 ____
 
