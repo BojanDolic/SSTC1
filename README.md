@@ -49,7 +49,7 @@ The second thing was to design the PCBs and have them manufactured.
 
 I started with the logic board PCB and that was the first ever PCB I designed and manufactured.
 The logic board uses the UCC27425 driver to drive the FETs. 
-The feedback signal is picked up by the antenna and together with the optical receiver, it triggers the driver which drives the FETs through the [gate drive transformer](https://github.com/BojanDolic/SSTC1/blob/main/README.md#gdt).
+The feedback signal is picked up by the antenna and together with the optical receiver, it triggers the driver which drives the FETs through the [gate drive transformer](https://github.com/BojanDolic/SSTC1/blob/main/README.md#gate-drive-transformer).
 
 ### Images of the logic board
 
