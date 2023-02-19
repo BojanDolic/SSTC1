@@ -62,8 +62,9 @@ The feedback signal is picked up by the antenna and together with the optical re
 ### Gate drive transformer
 
 I used the gate driver transformer to provide galvanic isolation between the logic board and the switching board. Output of the GDT is around 18V.
+GDT is constructed using ferrite toroid made out of N30 material and Cat5 cable. I twisted the cables together to lower the parasitic inductance.
 
-<img src="pictures/logic_board_v1/logicboard_step5.jpg" width=600 height=700>
+<img src="pictures/gdt/gdt.jpg" width=900 height=700>
 
 ## Driver board
 
