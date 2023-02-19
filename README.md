@@ -59,8 +59,11 @@ The feedback signal is picked up by the antenna and together with the optical re
 
 <img src="pictures/logic_board_v1/logicboard_step5.jpg" width=600 height=700>
 
-## Gate drive transformer
+### Gate drive transformer
 
+I used the gate driver transformer to provide galvanic isolation between the logic board and the switching board. Output of the GDT is around 18V.
+
+<img src="pictures/logic_board_v1/logicboard_step5.jpg" width=600 height=700>
 
 ## Driver board
 
