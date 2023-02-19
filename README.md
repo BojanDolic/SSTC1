@@ -8,7 +8,7 @@ ___
 * [Story](#story)
 * [Start of the project](#start)
 * [Construction](#construction)
-  * [Logic board](https://github.com/BojanDolic/SSTC1/edit/main/README.md#logic-board)
+  * [Logic board](https://github.com/BojanDolic/SSTC1/README.md#logic-board)
 
 ____
 
