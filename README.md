@@ -5,7 +5,8 @@ ___
 
 ### Table of contents
 
-* [Introduction](#introduction)
+* [Story](#story)
+* [Start of the project](#start)
 
 
 
@@ -19,4 +20,9 @@ I've always tinkered with electronics but never had a chance to build one until 
 
 Unlike the one in the museum, this one uses semiconductors instead of the spark gap.
 
+![Belgrade tesla coil](https://github.com/BojanDolic/SSTC1/blob/main/pictures/belgrade_coil/tc_belgrade.png)
+
+#### (Tesla coil photographed in the Belgrade during my visit)
+
+# Start
 
