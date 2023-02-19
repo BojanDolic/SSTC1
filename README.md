@@ -40,3 +40,6 @@ The secondary coil resonant frequency I was aiming for was ***300kHz max*** (pre
 ___
 # Construction
 
+The first thing I did was visualized everything in my head, how I should place the components and ECBs.
+
+The second thing was to design the PCBs and have them manufactured. I started with the logic board PCB and that was the first ever PCB I designed and manufactured.
