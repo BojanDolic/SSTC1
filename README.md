@@ -11,6 +11,7 @@ ___
   * [Logic board](https://github.com/BojanDolic/SSTC1/blob/main/README.md#logic-board)
   * [Driver board](https://github.com/BojanDolic/SSTC1/blob/main/README.md#driver-board)
   * [Secondary and topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload)
+    * [Secondary winding/topload holder](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload-holder) 
 
 ____
 
@@ -84,6 +85,23 @@ The bus capacitor is a large electrolytic capacitor with screw terminals (1000µ
 
 One of the most painstaking things when building the tesla coil is the secondary winding. The problem with the secondary winding is that it needs to be made with hundreds of windings of very thin copper wire, in my case that is around 1030 turns of 28 AWG wire.
 
+### Secondary coil and topload holder
+
 I made a little contraption to ease the winding process. It consists of a simple holder which holds the motor of the cordless drill and it is controlled by the PWM controller. I made my secondary in about 3 to 4 hours with this device.
 
+<img src="pictures/secondary/secondary_finished.jpg" width=500 height=1111>
+
 After the secondary was wound, I applied two coats of polyurethane varnish to the secondary windings to prevent corona formation and make the secondary sturdier.
+To install topload on top of the secondary I designed two parts in fusion 360 which were later 3D printed.
+
+<img src="pictures/secondary/topload_holder_3d_model.png" width=600 height=651>
+
+<img src="pictures/secondary/secondary_with_topload_holder.jpg" width=600 height=1333>
+
+### Topload construction
+
+I chose toroid for the shape of the topload. On most coils today, toroid is the dominant shape for the topload instead of the sphere.
+To achieve desired resonant frequency of the secondary I needed to build the topload with specific dimensions.
+
+Topload was built using 
+
