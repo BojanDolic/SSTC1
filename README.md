@@ -10,6 +10,7 @@ ___
 * [Construction](#construction)
   * [Logic board](https://github.com/BojanDolic/SSTC1/blob/main/README.md#logic-board)
   * [Driver board](https://github.com/BojanDolic/SSTC1/blob/main/README.md#driver-board)
+  * [Secondary and topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload)
 
 ____
 
@@ -21,7 +22,7 @@ I've always tinkered with electronics but never had a chance to build one until 
 
 Unlike the one in the museum, this one uses semiconductors instead of the spark gap.
 
-![Belgrade tesla coil](https://github.com/BojanDolic/SSTC1/blob/main/pictures/belgrade_coil/tc_belgrade.png)
+<img src="pictures/belgrade_coil/tc_belgrade.png" width=400 height=695>
 
 #### (Tesla coil photographed in the Belgrade during my visit)
 
@@ -29,7 +30,7 @@ ___
 
 # Start
 
-I started researching what would be most cost-effective way to build the tesla coil and I decided to build an SSTC.
+I started researching what would be the most cost-effective way to build the tesla coil and a decision was made for it to be an SSTC.
 ### SSTC uses semiconductors instead of the spark gap to switch the primary coil. The most significant difference is the absence of resonant capacitors (primary capacitors). Because of this, the SSTC cannot generate huge voltages at the output; however, it is much cheaper to build.
 
 My plan was to look at the builds other coilers made and try something similar. I went for the proven design of the Steve Ward with a few modifications regarding the logic board.
@@ -44,7 +45,7 @@ ___
 
 The first thing I did was visualized everything in my head, how I should place the components and ECBs.
 
-The second thing was to design the PCBs and have them manufactured. JLCPCB was chosen for board manufacturing.
+The second thing was to design the PCBs and have them manufactured. [JLCPCB](https://jlcpcb.com/) was chosen for board manufacturing.
 
 ## Logic board
 
@@ -70,10 +71,19 @@ GDT is constructed using a ferrite toroid made of N30 material and a Cat5 cable.
 ## Driver board
 
 The second board I designed was the driver/switching board. It consists of the gate circuitry and two FETs in a half-bridge configuration. I decided on the half-bridge because it is cheaper (it uses only two transistors) but it has lower performance.
+The bus capacitor is a large electrolytic capacitor with screw terminals (1000µF/400V) which is directly fed with full-wave rectified 230VAC (Red and blue wires).
 
 ### Images of the driver board
 
 <img src="pictures/driver_board/driver_board1.jpg" width=700 height=400>
 <img src="pictures/driver_board/driver_board2.jpg" width=400 height=889>
-<img src="pictures/driver_board/driver_board_above.jpg" width=650 height=850>
+<img src="pictures/driver_board/driver_board_finished_horizontal.jpg" width=800 height=360>
 
+
+## Secondary coil and topload
+
+One of the most painstaking things when building the tesla coil is the secondary winding. The problem with the secondary winding is that it needs to be made with hundreds of windings of very thin copper wire, in my case that is around 1030 turns of 28 AWG wire.
+
+I made a little contraption to ease the winding process. It consists of a simple holder which holds the motor of the cordless drill and it is controlled by the PWM controller. I made my secondary in about 3 to 4 hours with this device.
+
+After the secondary was wound, I applied two coats of polyurethane varnish to the secondary windings to prevent corona formation and make the secondary sturdier.
