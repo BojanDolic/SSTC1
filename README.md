@@ -44,7 +44,7 @@ ___
 
 The first thing I did was visualized everything in my head, how I should place the components and ECBs.
 
-The second thing was to design the PCBs and have them manufactured. 
+The second thing was to design the PCBs and have them manufactured. JLCPCB was chosen for board manufacturing.
 
 ## Logic board
 
@@ -62,8 +62,8 @@ The feedback signal is picked up by the antenna and together with the optical re
 
 ### Gate drive transformer
 
-I used the gate driver transformer to provide galvanic isolation between the logic board and the switching board. Output of the GDT is around 18V.
-GDT is constructed using ferrite toroid made out of N30 material and Cat5 cable. I twisted the cables together to lower the parasitic inductance.
+I used the gate driver transformer to provide galvanic isolation between the logic and switching boards. The output of the GDT is around 18V.
+GDT is constructed using a ferrite toroid made of N30 material and a Cat5 cable. I twisted the wires together to lower the parasitic inductance which needs to be kept at a minimum at high switching frequencies.
 
 <img src="pictures/gdt/gdt.jpg" width=900 height=700>
 
@@ -73,7 +73,7 @@ The second board I designed was the driver/switching board. It consists of the g
 
 ### Images of the driver board
 
-<img src="pictures/driver_board/driver_board1.jpg" width=600 height=400>
-<img src="pictures/driver_board/driver_board2.jpg" width=600 height=1000>
-<img src="pictures/driver_board/driver_board_above.jpg" width=600 height=900>
+<img src="pictures/driver_board/driver_board1.jpg" width=700 height=400>
+<img src="pictures/driver_board/driver_board2.jpg" width=400 height=889>
+<img src="pictures/driver_board/driver_board_above.jpg" width=650 height=850>
 
