@@ -105,5 +105,11 @@ To install topload on top of the secondary I designed two parts in fusion 360 wh
 I chose toroid for the shape of the topload. On most coils today, toroid is the dominant shape for the topload instead of the sphere.
 To achieve desired resonant frequency of the secondary I needed to build the topload with specific dimensions.
 
-Topload was built using 
+Topload was built using wood, cardboard, glue, PU foam, and aluminium tape.
+First I made a circle out of wood, 300mm in diameter. 
+The next thing I did was printed the toroid shape using the printer, glued it to the cardboard, and carved the shape with scissors.
+
+<img src="pictures/driver_board/driver_board_finished_horizontal.jpg" width=800 height=360>
+
+I glued all the pieces to the wood and filled empty space with PU foam. When the foam hardened I shaped the toroid and taped it with aluminium tape.
 
