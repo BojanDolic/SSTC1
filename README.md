@@ -1,5 +1,5 @@
 # SSTC 1
-### This is a showcase of the solid state tesla coil project I've built. **(WIP)**
+### This is a showcase of the solid state tesla coil project I've built, and yes IT PLAYS MUSIC ☺ **(WIP)**
 
 <img src="pictures/finished_coil/front_angled.jpg" width=1000 height=1500>
 
@@ -40,7 +40,7 @@ ___
 I started researching what would be the most cost-effective way to build the tesla coil and a decision was made for it to be an SSTC.
 ### SSTC uses semiconductors instead of the spark gap to switch the primary coil. The most significant difference is the absence of resonant capacitors (primary capacitors). Because of this, the SSTC cannot generate huge voltages at the output; however, it is much cheaper to build.
 
-My plan was to look at the builds other coilers made and try something similar. I went for the proven design of the Steve Ward with a few modifications regarding the logic board.
+My plan was to look at the builds other coilers made and try something similar. I went for the proven design of the Steve Ward with a few modifications I did regarding the logic board.
 
 After that, I started to do calculations using an awesome tool called [JavaTC](http://www.classictesla.com/java/javatc/javatc.html).
 
@@ -180,8 +180,34 @@ Characteristics of the new primary:
 
 One more change I did was to change the IRFP460 I started with with the K60H603 IGBTs.
 
-### NOTE: **This frequency is pretty high for an IGBT. Because this IGBT has a much higher gate charge than the IRFP460, my driver is working harder to drive it efficiently, IGBT heats up much more than the MOSFET. So this is not the ideal configuration but I chose the IGBT because I wanted to push more current through the primary coil which IRFP460 probably couldn't do for a very long time. The primary peak current should be below 30A with the new configuration**
+### NOTE: **The frequency of this coil is pretty high for an IGBT. This IGBT has a much higher gate charge than the IRFP460 so my driver is working harder to drive it efficiently, IGBT heats up much more than the MOSFET. So this is not the ideal configuration but I chose the IGBT because I wanted to push more current through the primary coil which IRFP460 probably couldn't do for a very long time. The primary peak current should be below 30A with the new configuration**
 
-<img src="pictures/first_tests/coil_electronics.jpg" width="800" height="533" />
+
+**Side-by-side comparison of the primary coils.**
+
+<img src="pictures/new_primary/primarys_side_by_side.JPG" width="800" height="533" />
+
+<img src="pictures/new_primary/primaries_and_driver_1.JPG" width="800" height="533" />
+
+<img src="pictures/new_primary/primaries_and_driver_2.JPG" width="800" height="533" />
 
 # New tests
+
+After everything was assembled once again, I started testing the coil.
+
+***Performance was much better, even better than I expected.***
+
+I took a couple of photos and most importantly, a couple of **videos** 😁
+
+Probably the most interesting thing of this coil is the fact that it can produce music.
+
+
+
+### Note the primary wires in the first picture below. They are pretty long in my case and that should be avoided to reduce parasitic inductance.
+
+<img src="pictures/finished_coil/front_angled.jpg" width="700" height="1050" />
+
+<img src="pictures/finished_coil/top.jpg" width="700" height="1050" />
+
+Checkout my channel to see the videos of the coil in action.
+https://www.youtube.com/@bojandolic4820/shorts
