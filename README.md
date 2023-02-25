@@ -126,6 +126,23 @@ I glued all the pieces to the wood and filled empty space with PU foam. When the
 <img src="pictures/topload/topload_construction_12.jpg" width="400" height="889" />
 <img src="pictures/topload/topload_construction_13.jpg" width="700" height="315" />
 <img src="pictures/topload/topload_construction_14.jpg" width="400" height="889" />
-(Below the secondary, we can see the driver board, full bridge rectifier and earth bus.
+(on this photo, below the secondary, we can see the driver board, full bridge rectifier and earth bus)
 
+# First tests
+
+After gathering all the components, I assembled the coil and it was time to test it.
+For the testing I made simple voltage divider with the incandesent light bulbs which could be switched to voltage divider/series resistor (to limit the current).
+
+First test went okay but discharges were pretty low, my guess is that the coupling between the coils was too low.
+(Unfortunately I didn't took any photos of the first test).
+
+Second test was with the raised primary in an attempt to see what would happen 😄.
+***Performance was a little bit better but still far from what I expected.***
+
+I wanted to push the coil a little bit harder so I played some random music from my phone and one of the transistors popped.
+
+<img src="pictures/topload/topload_construction_12.jpg" width="800" height="1200" />
+
+<img src="pictures/topload/topload_construction_12.jpg" width="800" height="1200" />
+(Picture of the coil after the second test)
 
