@@ -16,7 +16,8 @@ ___
     * [Secondary winding/topload holder](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload-holder) 
     * [Topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#topload-construction)
 * [First tests](https://github.com/BojanDolic/SSTC1/blob/main/README.md#first-tests)
-* * [First tests](https://github.com/BojanDolic/SSTC1/blob/main/README.md#improvements)
+* [Improvements](https://github.com/BojanDolic/SSTC1/blob/main/README.md#improvements)
+* [Tests after improvements](https://github.com/BojanDolic/SSTC1/blob/main/README.md#new-tests)
 
 ____
 
