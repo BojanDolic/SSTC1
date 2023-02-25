@@ -1,5 +1,5 @@
 # SSTC 1
-### This is a showcase of the solid state tesla coil project I've built, and yes IT PLAYS MUSIC ☺ **(WIP)**
+### This is a showcase of the solid-state tesla coil project I’ve built, and yes, IT PLAYS MUSIC ☺ **(WIP)**
 
 <img src="pictures/finished_coil/front_angled.jpg" width=1000 height=1500>
 
