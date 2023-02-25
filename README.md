@@ -129,7 +129,9 @@ I glued all the pieces to the wood and filled empty space with PU foam. When the
 <img src="pictures/topload/topload_construction_14.jpg" width="400" height="889" />
 (on this photo, below the secondary, we can see the driver board, full bridge rectifier and earth bus)
 
-# First tests
+# **First tests**
+
+## First test
 
 After gathering all the components, I assembled the coil and it was time to test it.
 For the testing I made simple voltage divider with the incandesent light bulbs which could be switched to voltage divider/series resistor (to limit the current).
@@ -137,7 +139,8 @@ For the testing I made simple voltage divider with the incandesent light bulbs w
 First test went okay but discharges were pretty low, my guess is that the coupling between the coils was too low.
 (Unfortunately I didn't took any photos of the first test).
 
-**Second test**
+## Second test
+
 Second test took place the next day.I raised the primary in an attempt to improve the performance and see what would happen 😄.
 ***Performance was a little bit better but still far from what I expected.***
 
@@ -150,7 +153,7 @@ I wanted to push the coil a little bit harder so I played some random music from
 <img src="pictures/first_tests/dead_fet.jpg" width="600" height="400" />
 
 
-*Dissasembled fet, die area*
+*Dissasembled fet, die area (could be counterfeit 🤔)*
 
 <img src="pictures/first_tests/blown_fet_cropped.jpg" width="600" height="681" />
 
