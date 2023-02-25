@@ -16,6 +16,7 @@ ___
     * [Secondary winding/topload holder](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload-holder) 
     * [Topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#topload-construction)
 * [First tests](https://github.com/BojanDolic/SSTC1/blob/main/README.md#first-tests)
+* * [First tests](https://github.com/BojanDolic/SSTC1/blob/main/README.md#improvements)
 
 ____
 
@@ -165,3 +166,21 @@ I wanted to push the coil a little bit harder so I played some random music from
 <img src="pictures/first_tests/coil.jpg" width="800" height="1200" />
 
 *Note the raised primary coil (with the help of the bricks 😂), feedback antenna to the left, and piece of wire on top of the topload which helps with the breakout.*
+
+
+
+# Improvements
+
+After the coil was out of function because of the blown fet, from the tests, I knew I needed to increase the coupling of the coils.
+Characteristics of the new primary:
+* 8 turns
+* ~4.78uH of inductance. Much lower than the previous one, allows more current through the primary.
+* Coupling coefficient increased to around 0.4.
+
+One more change I did was to change the IRFP460 I started with with the K60H603 IGBTs.
+
+### NOTE: **This frequency is pretty high for an IGBT. Because this IGBT has a much higher gate charge than the IRFP460, my driver is working harder to drive it efficiently, IGBT heats up much more than the MOSFET. So this is not the ideal configuration but I chose the IGBT because I wanted to push more current through the primary coil which IRFP460 probably couldn't do for a very long time. The primary peak current should be below 30A with the new configuration**
+
+<img src="pictures/first_tests/coil_electronics.jpg" width="800" height="533" />
+
+# New tests
