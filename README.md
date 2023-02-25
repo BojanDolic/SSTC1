@@ -14,6 +14,7 @@ ___
   * [Driver board](https://github.com/BojanDolic/SSTC1/blob/main/README.md#driver-board)
   * [Secondary and topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload)
     * [Secondary winding/topload holder](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload-holder) 
+    * [Topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#topload-construction)
 
 ____
 
@@ -109,7 +110,22 @@ Topload was built using wood, cardboard, glue, PU foam, and aluminium tape.
 First I made a circle out of wood, 300mm in diameter. 
 The next thing I did was printed the toroid shape using the printer, glued it to the cardboard, and carved the shape with scissors.
 
-<img src="pictures/driver_board/driver_board_finished_horizontal.jpg" width=800 height=360>
-
+<table>
+<tr>
+ <td> <img src="pictures/topload/topload_construction_2.jpg" width="400" height="889" /> </td> 
+ <td> <img src="pictures/topload/topload_construction_3.jpg" width="400" height="889" /> </td> 
+</tr>
+</table>
+ 
 I glued all the pieces to the wood and filled empty space with PU foam. When the foam hardened I shaped the toroid and taped it with aluminium tape.
+
+<img src="pictures/topload/topload_construction_5.jpg" width="400" height="889" />
+<img src="pictures/topload/topload_construction_6.jpg" width="700" height="315" />
+
+<img src="pictures/topload/topload_construction_10.jpg" width="700" height="315" />
+<img src="pictures/topload/topload_construction_12.jpg" width="400" height="889" />
+<img src="pictures/topload/topload_construction_13.jpg" width="700" height="315" />
+<img src="pictures/topload/topload_construction_14.jpg" width="400" height="889" />
+(Below the secondary, we can see the driver board, full bridge rectifier and earth bus.
+
 
