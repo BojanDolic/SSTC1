@@ -164,3 +164,4 @@ I wanted to push the coil a little bit harder so I played some random music from
 <img src="pictures/first_tests/coil_electronics.jpg" width="800" height="533" />
 <img src="pictures/first_tests/coil.jpg" width="800" height="1200" />
 
+*Note the raised primary coil (with the help of the bricks 😂), feedback antenna to the left, and piece of wire on top of the topload which helps with the breakout.*
