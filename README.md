@@ -15,6 +15,7 @@ ___
   * [Secondary and topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload)
     * [Secondary winding/topload holder](https://github.com/BojanDolic/SSTC1/blob/main/README.md#secondary-coil-and-topload-holder) 
     * [Topload](https://github.com/BojanDolic/SSTC1/blob/main/README.md#topload-construction)
+* [First tests](https://github.com/BojanDolic/SSTC1/blob/main/README.md#first-tests)
 
 ____
 
@@ -136,13 +137,27 @@ For the testing I made simple voltage divider with the incandesent light bulbs w
 First test went okay but discharges were pretty low, my guess is that the coupling between the coils was too low.
 (Unfortunately I didn't took any photos of the first test).
 
-Second test was with the raised primary in an attempt to see what would happen 😄.
+**Second test**
+Second test took place the next day.I raised the primary in an attempt to improve the performance and see what would happen 😄.
 ***Performance was a little bit better but still far from what I expected.***
 
 I wanted to push the coil a little bit harder so I played some random music from my phone and one of the transistors popped.
 
-<img src="pictures/topload/topload_construction_12.jpg" width="800" height="1200" />
 
-<img src="pictures/topload/topload_construction_12.jpg" width="800" height="1200" />
-(Picture of the coil after the second test)
+
+*Dead fet*
+
+<img src="pictures/first_tests/dead_fet.jpg" width="600" height="400" />
+
+
+*Dissasembled fet, die area*
+
+<img src="pictures/first_tests/blown_fet_cropped.jpg" width="600" height="681" />
+
+
+
+***Picture of the coil and it's electronics***
+
+<img src="pictures/first_tests/coil_electronics.jpg" width="800" height="533" />
+<img src="pictures/first_tests/coil.jpg" width="800" height="1200" />
 
